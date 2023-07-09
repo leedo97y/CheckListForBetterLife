@@ -12,9 +12,12 @@ const styles = StyleSheet.create({
     fontWeight: 500,
   },
   input: {
-    color: theme.whiteText,
     backgroundColor: theme.whiteText,
-    marginTop: 10,
+    marginTop: 20,
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderRadius: 30,
+    fontSize: 18,
   },
 });
 

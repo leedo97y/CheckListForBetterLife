@@ -12,7 +12,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <Header isWorking={isWorking} setIsWorking={setIsWorking} />
-      <InputBody />
+      <InputBody isWorking={isWorking} />
     </View>
   );
 }
