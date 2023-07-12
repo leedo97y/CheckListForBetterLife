@@ -3,7 +3,7 @@ import styles from "./styles";
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";
 import Header from "./src/components/Header/index";
-import InputBody from "./src/components/InputBody";
+import TodoBody from "./src/components/TodoBody/index";
 
 export default function App() {
   const [isWorking, setIsWorking] = useState(true);
@@ -12,7 +12,7 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
       <Header isWorking={isWorking} setIsWorking={setIsWorking} />
-      <InputBody isWorking={isWorking} />
+      <TodoBody isWorking={isWorking} />
     </View>
   );
 }
